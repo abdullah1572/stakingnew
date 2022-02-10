@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1c6aed0.chunk.css",
+    "main.js": "/static/js/main.c79872e3.chunk.js",
+    "main.js.map": "/static/js/main.c79872e3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9fc699bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9fc699bf.js.map",
+    "static/css/2.1993f7b2.chunk.css": "/static/css/2.1993f7b2.chunk.css",
+    "static/js/2.84fdfc57.chunk.js": "/static/js/2.84fdfc57.chunk.js",
+    "static/js/2.84fdfc57.chunk.js.map": "/static/js/2.84fdfc57.chunk.js.map",
+    "static/js/3.05466247.chunk.js": "/static/js/3.05466247.chunk.js",
+    "static/js/3.05466247.chunk.js.map": "/static/js/3.05466247.chunk.js.map",
+    "static/js/4.d3c0de7f.chunk.js": "/static/js/4.d3c0de7f.chunk.js",
+    "static/js/4.d3c0de7f.chunk.js.map": "/static/js/4.d3c0de7f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1993f7b2.chunk.css.map": "/static/css/2.1993f7b2.chunk.css.map",
+    "static/css/main.d1c6aed0.chunk.css.map": "/static/css/main.d1c6aed0.chunk.css.map",
+    "static/js/2.84fdfc57.chunk.js.LICENSE.txt": "/static/js/2.84fdfc57.chunk.js.LICENSE.txt",
+    "static/js/3.05466247.chunk.js.LICENSE.txt": "/static/js/3.05466247.chunk.js.LICENSE.txt",
+    "static/media/Metaverso_746x419.eaecf103.jpeg": "/static/media/Metaverso_746x419.eaecf103.jpeg",
+    "static/media/article23-1.fefbbaf3.jpeg": "/static/media/article23-1.fefbbaf3.jpeg",
+    "static/media/staking.scss": "/static/media/rtt-background.826ee08f.png",
+    "static/media/bnb-icon.d14b3279.svg": "/static/media/bnb-icon.d14b3279.svg",
+    "static/media/care1.c5e4a428.webp": "/static/media/care1.c5e4a428.webp",
+    "static/media/decentraland_cover_Twitter_large_1637063730543.aa626d4c.webp": "/static/media/decentraland_cover_Twitter_large_1637063730543.aa626d4c.webp",
+    "static/media/nft-icon.3608ce5f.svg": "/static/media/nft-icon.3608ce5f.svg",
+    "static/media/rtt-icon.631ad917.svg": "/static/media/rtt-icon.631ad917.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fc699bf.js",
+    "static/css/2.1993f7b2.chunk.css",
+    "static/js/2.84fdfc57.chunk.js",
+    "static/css/main.d1c6aed0.chunk.css",
+    "static/js/main.c79872e3.chunk.js"
+  ]
+}

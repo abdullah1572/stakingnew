@@ -1,0 +1,60 @@
+.main-stakednft {
+    .custom-Card {
+        margin-bottom: 10px;
+        border-radius: 8px;
+        .img-div {
+            width: 100%;
+            height: 180px;
+            overflow: hidden;
+            position: relative;
+            img {
+                width: 100%;
+                height: 180px;
+                border-radius: 18px;
+                object-fit: cover;
+            }
+        }
+        .card-ul {
+            border-top: 1px solid #e5e9ed;
+            margin-top: 10px;
+            padding-top: 10px;
+            .list-inline {
+                display: flex;
+                justify-content: space-between;
+            }
+            ul li:nth-child(1) p {
+                font-weight: normal;
+                font-size: 12px;
+                display: flex;
+                align-self: center;
+            }
+            ul li:nth-child(2) p {
+                font-weight: bold;
+                font-size: 11px;
+                color: #475569;
+            }
+        }
+        @media (max-width: 600px) {
+            .card-ul {
+                border-top: 1px solid #e5e9ed;
+                margin-top: 10px;
+                padding-top: 10px;
+                .list-inline {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                ul li:nth-child(1) p {
+                    font-weight: normal;
+                    font-size: 14px;
+                    display: flex;
+                    align-self: center;
+                }
+                ul li:nth-child(2) p {
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: #475569;
+                }
+            }
+        }
+    }
+}
