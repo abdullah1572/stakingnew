@@ -57,8 +57,8 @@ const Banner = () => {
                         <div className="col-md-8 mb-5 mb-md-0">
                             <div className="inner-content text-center ptb">
                                 <img src='opencanvas-assets/DJT-NFT-staking/no-nft-illustration.svg' className='img-fluid' alt="nft-img" />
-                                <h3>No NFTs found</h3>
-                                <p className='bluegrey mt-2'>Connect your wallet that has your DJT collection NFTs</p>
+                                <h3 style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "40px", color: "white" }}>No NFTs found</h3>
+                                <p className='bluegrey mt-2' style={{ fontFamily: "Ink Free, Times, serif", fontSize: "17px", color: "white" }}>Connect your wallet that has your DJT collection NFTs</p>
                             </div>
                         </div>
 

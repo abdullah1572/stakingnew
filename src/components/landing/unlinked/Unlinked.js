@@ -5,7 +5,7 @@ import Stakinginfo from '../stakinginfo/Stakinginfo'
 function Unlinked() {
     return (
         <>
-            <section className="main-unlinked ptb">
+            <section className="main-unlinked ptb" style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "20px", color: "white" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 mb-5 mb-md-0 p-0">
@@ -14,14 +14,13 @@ function Unlinked() {
                                     <div className='btns-div w-100 d-flex justify-content-between flex-wrap align-items-center'>
                                         <h3>Unlinked</h3>
                                         <ul className='list-inline'>
-                                            <li className='list-inline-item'><button className="btn-Outline">Link Selected</button></li>
-                                            <li className='list-inline-item'><button className="btn-Outline">Link Selected</button></li>
+                                            <li className='list-inline-item'><button className="btn-Outline " style={{ fontWeight: "bolder" }}>Link Selected</button></li>
+                                            <li className='list-inline-item'><button className="btn-Outline" style={{ fontWeight: "bolder" }}>Link Selected</button></li>
                                         </ul>
                                     </div>
-
                                 </div>
                             </div>
-                            <div className='row ptb20'>
+                            <div className='row ptb20' style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "20px", color: "black" }}>
                                 <div className="  col-md-3 px-1 ">
                                     <div class="card custom-Card">
                                         <div className="img-div">
@@ -67,7 +66,7 @@ function Unlinked() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='row'>
+                            <div className='row' style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "20px", color: "black" }}>
                                 <div className="  col-md-3 px-1 ">
                                     <div class="card custom-Card">
                                         <div className="img-div">
@@ -128,7 +127,7 @@ function Unlinked() {
                                         </div>
                                     </div>
                                     <div className=" p-0 mb-3">
-                                        <button className='btn-Outline w-100'>SWITCH POOL</button>
+                                        <button className='btn-Outline w-100' style={{ fontWeight: "bolder" }}>SWITCH POOL</button>
                                     </div>
                                 </div>
                             </div>

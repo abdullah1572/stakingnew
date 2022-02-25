@@ -17,7 +17,7 @@ function Stakinginfo() {
                 <div className='container p-0'>
                     <div className="row">
                         <div className="col-12 p-0">
-                            <div className='stakinginfo-card w-100'>
+                            <div className='stakinginfo-card w-100' style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "20px", color: "white" }} >
                                 <h3>Staking Info</h3>
                                 <ul className='list-inline card-item d-flex justify-content-between align-item-center bluegrey'>
                                     <li className='list-inline-item'><p>Staked</p></li>
@@ -34,7 +34,7 @@ function Stakinginfo() {
                             </div>
                         </div>
                         <div className="col-12 p-0">
-                            <div className='stakinginfo-card stakinginfo-card-claim w-100'>
+                            <div className='stakinginfo-card stakinginfo-card-claim w-100' style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "20px", color: "white" }}>
                                 <h3>Earned Reward</h3>
                                 <ul className='list-inline card-item d-flex justify-content-between align-item-center bluegrey'>
 
@@ -44,7 +44,7 @@ function Stakinginfo() {
                             </div>
                         </div>
                         <div className="col-12 p-0">
-                            <div className='stakinginfo-card w-100'>
+                            <div className='stakinginfo-card w-100' style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "20px", color: "white" }}>
                                 <h3>Staking Info</h3>
                                 <ul className='list-inline card-item d-flex justify-content-between align-item-center bluegrey'>
                                     <li className='list-inline-item'><p>Total NFTs</p></li>
@@ -193,7 +193,7 @@ function Stakinginfo() {
                                     <div className="modal-content">
                                         <div className="modal-body">
                                             <div className="row">
-                                                <div className="col-sm-12 p-0">
+                                                <div className="col-sm-12 p-0" style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "20px", color: "black" }}>
                                                     <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -230,14 +230,14 @@ function Stakinginfo() {
                                                         </ul>
 
                                                         <ul className='list-inline btn-div text-center'>
-                                                                                <li className='list-inline-item'>
-                                                                                    <button className='btn-common-white'>Cancel</button>
-                                                                                </li>
-                                                                                <li className='list-inline-item'>
-                                                                                    <button className='btn-common'>Claim</button>
-                                                                                </li>
-                                                                            </ul>
-                                                    
+                                                            <li className='list-inline-item'>
+                                                                <button className='btn-common-white'>Cancel</button>
+                                                            </li>
+                                                            <li className='list-inline-item'>
+                                                                <button className='btn-common'>Claim</button>
+                                                            </li>
+                                                        </ul>
+
                                                     </div>
 
                                                 </div>

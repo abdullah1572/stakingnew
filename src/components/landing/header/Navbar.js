@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.scss';
+// import "../../landing/header/nav.css";
 import { useWeb3React } from '@web3-react/core'
 import { Link } from 'react-router-dom'
 import useAuth from '../../../hooks/useAuth';
@@ -37,9 +38,9 @@ const Navbar = () => {
     }
 
     return (
-        <section className="main-navbar">
+        <section className="main-navbar" >
             <div className="container">
-                <nav className="navbar ptb20 navbar-expand-lg">
+                <nav className="navbar ptb20 navbar-expand-lg" style={{ fontFamily: "Ink Free, Times, serif", fontWeight: "bolder", fontSize: "20px", color: "white" }}>
                     <a className="navbar-brand" href="/">
                         <img src="\loot\Rectangle.png" className="img-fluid" alt="" />
                     </a>
@@ -51,10 +52,10 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                         </ul>
-                        <form className="form-inline text-center my-2 my-lg-0">
-                            <Link className="" to="/">HOME</Link>
-                            <Link className="" to="/staking">STAKING</Link>
-                            <Link className="" to="/Minting">Minting</Link>
+                        <form className="form-inline text-center my-2 my-lg-0" >
+                            <Link className="" to="/" style={{ color: "white" }}>HOME</Link>
+                            <Link className="" to="/staking" style={{ color: "white" }}>STAKING</Link>
+                            <Link className="" to="/Minting" style={{ color: "white" }}>Minting</Link>
                             {/* {account? <Link className="" to="/mynft">MY NFTS</Link>:""} */}
 
                             &nbsp;&nbsp;&nbsp;&nbsp;
@@ -72,7 +73,7 @@ const Navbar = () => {
                                                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                                                 <span aria-hidden="true">&times;</span>
                                                             </button>
-                                                            <h3 className="white modal-heading  text-center">CONNECT WALLET</h3>
+                                                            <h3 className="white modal-heading  text-center ">CONNECT WALLET</h3>
                                                             <div className="pop-content ptb20">
                                                                 <ul className="">
                                                                     <li className="">

@@ -175,7 +175,14 @@ const Mintingn = () => {
 
     return (
         <>
-            <div className="djjsdjnds">
+            <div className="djjsdjnds" style={
+                {
+                    fontFamily: "Ink Free, Times, serif",
+                    fontWeight: "bolder",
+                    fontSize: "20px",
+                    color: "white",
+                }
+            }>
                 <section className="minting">
                     <div className="container-fluid">
                         <div className="row">
@@ -186,8 +193,22 @@ const Mintingn = () => {
                                             <h3>
                                                 Metaestate Districts play to earn: Explore, mine, trade and govern.  various gameplays, such as, RPG, management, NFT collection, Battle, Auction, Breed and more
                                             </h3>
-                                            <button type="button">MINT NFTs</button>
-                                            <h1>Currently Minted : 47/20000</h1>
+                                            <button type="button" style={
+                                                {
+                                                    fontFamily: "Ink Free, Times, serif",
+                                                    fontWeight: "bolder",
+                                                    fontSize: "20px",
+                                                    color: "white",
+                                                }
+                                            }>MINT NFTs</button>
+                                            <h1 style={
+                                                {
+                                                    fontFamily: "Ink Free, Times, serif",
+                                                    fontWeight: "bolder",
+                                                    fontSize: "20px",
+                                                    color: "white",
+                                                }
+                                            }>Currently Minted : 47/20000</h1>
                                         </div>
                                     </div>
                                     <div className="col-lg-5 col-md-6 col-12">
@@ -209,14 +230,14 @@ const Mintingn = () => {
                                 <div className="row shadow-lg shshd">
                                     <div className='col-lg-6'>
                                         <div className="IMGASS ">
-                                              <img src={img2} alt="" className="img-fluid" />
+                                            <img src={img2} alt="" className="img-fluid" />
                                         </div>
                                     </div>
                                     <div className='col-lg-6'>
                                         <div className="abbnads">
                                             <h3>View Your Minted NFT's</h3>
                                             <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Enter Token ID Number To See The NFT"
-                                                 />
+                                            />
                                             <button>GET NFT</button>
                                         </div>
                                     </div>
@@ -271,7 +292,7 @@ const Mintingn = () => {
                         </div>
                     </div>
                 </section>
-            </div>
+            </div >
         </>
     )
 }

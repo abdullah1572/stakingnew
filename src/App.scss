@@ -4,6 +4,10 @@ html {
 body {
   font-family: "Jost", sans-serif !important;
   color: #000 !important;
+  background: #03001e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e406e4, #45024e, #110350, #050116);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e406e4, #45024e, #110350, #050116); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;  
 }
 
 .row {
@@ -96,9 +100,11 @@ p {
 }
 
 .btn-common {
-  background: #6c01c3;
+  background: #d10dd8;  /* fallback for old browsers */
+
+font-weight: bolder;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
+  border-radius: 2px;
   margin: 10px 0;
   padding: 10px 15px;
   color: #fff;
@@ -109,13 +115,13 @@ p {
   cursor: pointer;
 
   &:hover {
-    color: #6c01c3;
+    color: #d10dd8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #fff;
   }
 
   &:active {
-    color: #6c01c3;
+    color: #d10dd8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #fff;
   }
